@@ -1,0 +1,53 @@
+_id: req_bb465d5bf3bd4491aab27f2277fbe313
+type: Request
+parentId: fld_cfd51bb24a6348be8a24726c0672f59c
+modified: 1651223276081
+created: 1651220749914
+url: "{{ _.api_endpoint }}/product-export/grid"
+name: Grid
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"start": 0,
+    	"limit": 50,
+    	"sort_column": "created_date",
+    	"sort_direction": "desc",
+    	"filter": [
+    		{
+    			"key": "product_id",
+    			"value": ["0833daee-bb46-41d8-930c-1a95adf9acbf"]
+    		},
+    		{
+    			"key": "uniqueFootprint",
+    			"value": ["8882013f-791b-4926-9727-cbfc825d5481"]
+    		}
+    	],
+    	"group_by": [],
+    	"grid": true
+    }
+parameters:
+  - id: pair_684e8daca44e4928b596d25c77633766
+    name: ""
+    value: ""
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_f86bae7ecef04216ab5184b5efa62c35
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: "{{ _.username }}"
+  password: "{{ _.password }}"
+metaSortKey: -1651214831495.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

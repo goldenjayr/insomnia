@@ -1,0 +1,14 @@
+_id: env_0997902f3f86426fb9380908c8d392c2
+type: Environment
+parentId: env_4b201a46adef4bcee4c0e33f3d776524b13b7771
+modified: 1651215167075
+created: 1651214841594
+name: DEVELOPMENT
+data:
+  api_endpoint: ""
+dataPropertyOrder:
+  "&":
+    - api_endpoint
+color: null
+isPrivate: false
+metaSortKey: 1651214841594

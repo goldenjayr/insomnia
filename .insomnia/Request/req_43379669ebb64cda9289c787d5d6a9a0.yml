@@ -1,0 +1,28 @@
+_id: req_43379669ebb64cda9289c787d5d6a9a0
+type: Request
+parentId: fld_8dc9f7fd16464eca8b48e21a51eb7a93
+modified: 1653383295776
+created: 1651226103555
+url: "{{ _.export_endpoint
+  }}/product/0833daee-bb46-41d8-930c-1a95adf9acbf/8882013f-791b-4926-9727-cbfc8\
+  25d5481/XL/BASE_CUFF_RIGHT`"
+name: Regenerate Component
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: "{{ _.username }}"
+  password: "{{ _.password }}"
+metaSortKey: -1651226103555
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

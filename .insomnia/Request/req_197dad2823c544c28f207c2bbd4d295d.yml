@@ -1,0 +1,33 @@
+_id: req_197dad2823c544c28f207c2bbd4d295d
+type: Request
+parentId: fld_cfd51bb24a6348be8a24726c0672f59c
+modified: 1651321428194
+created: 1651218176447
+url: "{{ _.api_endpoint
+  }}/product-export?product_id=0833daee-bb46-41d8-930c-1a95adf9acbf&uniqueFootp\
+  rint=8882013f-791b-4926-9727-cbfc825d5481"
+name: Product Export
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_035c216662d74dd0a8445283685dd52b
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: "{{ _.username }}"
+  password: "{{ _.password }}"
+metaSortKey: -1651214831470.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,26 @@
+_id: req_07155a9ae63845a4a1eb2cd13aa83094
+type: Request
+parentId: fld_cfd51bb24a6348be8a24726c0672f59c
+modified: 1651229016035
+created: 1651223284022
+url: "{{ _.api_endpoint }}/product-export/7308c73f-2b42-4f04-a60a-3c15690e34db"
+name: Product Export Delete
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: "{{ _.username }}"
+  password: "{{ _.password }}"
+metaSortKey: -1651214831420.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

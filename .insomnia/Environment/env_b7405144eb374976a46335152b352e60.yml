@@ -1,0 +1,20 @@
+_id: env_b7405144eb374976a46335152b352e60
+type: Environment
+parentId: env_4b201a46adef4bcee4c0e33f3d776524b13b7771
+modified: 1651216900588
+created: 1651215153085
+name: LOCAL
+data:
+  api_endpoint: localhost:4999
+  username: 23point5
+  password: F0nch3rt0
+  export_endpoint: localhost:8084
+dataPropertyOrder:
+  "&":
+    - api_endpoint
+    - username
+    - password
+    - export_endpoint
+color: null
+isPrivate: false
+metaSortKey: 1651215153085

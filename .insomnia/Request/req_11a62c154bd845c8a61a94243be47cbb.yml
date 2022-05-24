@@ -1,0 +1,28 @@
+_id: req_11a62c154bd845c8a61a94243be47cbb
+type: Request
+parentId: fld_8dc9f7fd16464eca8b48e21a51eb7a93
+modified: 1651323545872
+created: 1651216214692
+url: "{{ _.export_endpoint
+  }}/product/0833daee-bb46-41d8-930c-1a95adf9acbf/8882013f-791b-4926-9727-cbfc8\
+  25d5481"
+name: Product Export
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: 23point5
+  password: F0nch3rt0
+metaSortKey: -1651216214692
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

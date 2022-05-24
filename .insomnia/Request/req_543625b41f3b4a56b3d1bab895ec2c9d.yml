@@ -1,0 +1,26 @@
+_id: req_543625b41f3b4a56b3d1bab895ec2c9d
+type: Request
+parentId: fld_79a8d643da3c483f910c1f5d1c25b1cd
+modified: 1651221011003
+created: 1651214831511
+url: "{{ _.api_endpoint }}/product"
+name: Product
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: "{{ _.username }}"
+  password: "{{ _.password }}"
+metaSortKey: -1651214831511
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
